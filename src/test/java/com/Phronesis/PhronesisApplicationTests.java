@@ -26,7 +26,7 @@ class PhronesisApplicationTests {
 				.uri("http://localhost:%d/health?isHealthy=true".formatted(port))
 				.exchange()
 				.expectBody(Map.class)
-				.isEqualTo(Map.of("success", true));
+				.isEqualTo(Map.of("success", true, "status", "UP"));
 	}
 
 }
