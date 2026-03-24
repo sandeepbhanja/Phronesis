@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.Phronesis.ErrorMessage.ErrorMessage;
+import com.Phronesis.Entity.ErrorMessage;
 
 import jakarta.servlet.http.HttpServletRequest;
 

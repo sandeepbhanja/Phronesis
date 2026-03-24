@@ -1,4 +1,4 @@
-package com.Phronesis.ErrorMessage;
+package com.Phronesis.Entity;
 
 import java.time.LocalDate;
 

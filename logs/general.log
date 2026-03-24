@@ -1,0 +1,47 @@
+2026-03-24 11:17:19 - Starting PhronesisApplicationTests using Java 21.0.6 with PID 30352 (started by sandeep.bhanja in D:\Projects\Phronesis)
+2026-03-24 11:17:19 - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 11:17:21 - Tomcat initialized with port 0 (http)
+2026-03-24 11:17:21 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2026-03-24 11:17:21 - Starting service [Tomcat]
+2026-03-24 11:17:21 - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-24 11:17:21 - Root WebApplicationContext: initialization completed in 1368 ms
+2026-03-24 11:17:21 - Inside init()
+2026-03-24 11:17:22 - Connected Successfully!
+2026-03-24 11:17:23 - Starting ProtocolHandler ["http-nio-auto-1"]
+2026-03-24 11:17:23 - Tomcat started on port 56400 (http) with context path '/'
+2026-03-24 11:17:23 - Started PhronesisApplicationTests in 4.034 seconds (process running for 5.71)
+2026-03-24 11:17:24 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-24 11:17:24 - Initializing Servlet 'dispatcherServlet'
+2026-03-24 11:17:24 - Completed initialization in 0 ms
+2026-03-24 11:17:24 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-24 11:17:24 - Graceful shutdown complete
+2026-03-24 11:17:59 - Starting PhronesisApplication using Java 21.0.6 with PID 25484 (D:\Projects\Phronesis\target\classes started by sandeep.bhanja in D:\Projects\Phronesis)
+2026-03-24 11:17:59 - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 11:17:59 - Tomcat initialized with port 8080 (http)
+2026-03-24 11:17:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-24 11:17:59 - Starting service [Tomcat]
+2026-03-24 11:17:59 - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-24 11:17:59 - Root WebApplicationContext: initialization completed in 591 ms
+2026-03-24 11:17:59 - Inside init()
+2026-03-24 11:18:00 - Connected Successfully!
+2026-03-24 11:18:00 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-24 11:18:00 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-24 11:18:00 - Started PhronesisApplication in 2.185 seconds (process running for 2.554)
+2026-03-24 11:18:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-24 11:18:36 - Initializing Servlet 'dispatcherServlet'
+2026-03-24 11:18:36 - Completed initialization in 2 ms
+2026-03-24 11:24:08 - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [PING0x0d0x0a...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-24 11:28:21 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-24 11:28:21 - Graceful shutdown complete

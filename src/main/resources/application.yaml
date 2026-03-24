@@ -1,0 +1,6 @@
+spring:
+  redis:
+    secret: ${REDIS_SECRET}
+
+logging:
+  config: classpath:logback-spring.xml
