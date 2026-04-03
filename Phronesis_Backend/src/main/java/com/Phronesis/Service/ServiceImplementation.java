@@ -10,4 +10,11 @@ public class ServiceImplementation implements ServiceInterface {
         return true;
     }
 
+	@Override
+	public void logData(String body) {
+		
+		
+		
+	}
+
 }

@@ -26,8 +26,8 @@ public class Controller {
         this.redisService = redisService;
     }
 
-    @PostMapping("/saveDataToRedis")
-    public ResponseEntity<Map<String, Object>> saveDataToRedis(@RequestParam String body) throws Exception {
+    @PostMapping("/logData")
+    public ResponseEntity<Map<String, Object>> logData(@RequestParam String body) throws Exception {
         boolean isRedisDataSet = redisService.setRedisData(body);
         Map<String, Object> responseObject = new HashMap<>();
         responseObject.put("success", isRedisDataSet);
