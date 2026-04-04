@@ -9,14 +9,14 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class KafkaProducerConfig {
 
-	@Bean
+    @Bean
     public KafkaProducer<String, String> kafkaProducer() {
         Properties props = new Properties();
-        props.put("bootstrap.servers","broker1:9092,broker2:9092");
-        props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
-        props.put("value.serializer","org.apache.kafka.common.serialization.StringSerializer");
+        props.put("bootstrap.servers", "localhost:9092");
+        props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
         return new KafkaProducer<>(props);
     }
-	
+
 }

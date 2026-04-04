@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".git"
+		},
+		{
+			"path": "kafka-consumer"
+		},
+		{
+			"path": "kafka-producer"
+		},
+		{
+			"path": "Phronesis_Backend"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
